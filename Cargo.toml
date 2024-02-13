@@ -1,0 +1,15 @@
+[package]
+name = "first-app"
+version = "0.1.0"
+authors = ["coderrapper <chitreshpoojary660@gmail.com>"]
+edition = "2021"
+
+[dependencies]
+slint = "1.0"
+
+[build-dependencies]
+slint-build = "1.0"
+
+[package.metadata.bundle]
+name = "Income Divider"
+
